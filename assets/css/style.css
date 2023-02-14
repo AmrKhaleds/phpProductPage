@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Hide text field count for input number type : Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+/* ---------------------------------------- */
+.navbar {
+    background-color: #2C3F50;
+    height: 80px;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar-brand,
+.navbar-expand-lg .navbar-nav .nav-link {
+    
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: rgb(167, 167, 167);
+}
+
+.row,
+.card {
+    margin: 5px;
+}
+
+.checkbox {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+footer {
+    background-color: #2C3F50;
+    height: 80px;
+}
+
+.dynamic-section {
+    /* border: 2px solid #2C3F50; */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+}
+
+.navbar-expand-lg .navbar-nav .link {
+    margin-left: 5px;
+
+}

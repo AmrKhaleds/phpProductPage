@@ -1,0 +1,13 @@
+{
+    "name": "akeissa/junior_task",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Config\\": "config/"
+        }
+    },
+    "authors": [{
+        "name": "AmrKhaled",
+        "email": "dev.amrkhaled@gmail.com"
+    }]
+}
